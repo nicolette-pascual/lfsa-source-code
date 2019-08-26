@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lfsa_icon_bg"
+    android:orientation="vertical"
+    tools:context="com.lfsa_foodstallcrew.Activities.ReportActivity_Crew"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="173dp"
+        android:layout_height="107dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-5dp"
+        app:srcCompat="@drawable/lfsa_crew_logo_no_bg" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:text="Select a subject of the report:"
+        android:textColor="#3b3838"
+        android:textSize="16dp"/>
+
+    <Spinner
+        android:id="@+id/spinner"
+        style="@style/Widget.AppCompat.DropDownItem.Spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:entries="@array/subjects"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="-111dp"
+        android:text="Subject:"
+        android:textColor="#3b3838"
+        android:textSize="16dp"/>
+
+    <EditText
+        android:id="@+id/txtSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="User Report"
+        android:inputType="textPersonName"
+        android:background="@drawable/background_input"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:textStyle="italic"/>
+
+    <EditText
+        android:id="@+id/txtBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_border"
+        android:ems="10"
+        android:hint="Enter your report about a user (Please provide the username)"
+        android:inputType="textMultiLine"
+        android:paddingBottom="10dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="10dp"
+        android:lines="4"
+        android:textAlignment="viewStart"
+
+        android:textColorHint="#fff" />
+
+    <TextView
+        android:id="@+id/txtReminder"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:text="*Please provide the customer's username."
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background_button_no_border"
+        android:elevation="24dp"
+        android:onClick="btnSend"
+        android:text="Send via an e-mail app"
+        android:textColor="#fff"/>
+
+</LinearLayout>

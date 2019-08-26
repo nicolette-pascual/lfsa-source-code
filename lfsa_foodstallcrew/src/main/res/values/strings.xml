@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name">LFSACrew</string>
+    <string name="full_app_name">Lasallian FoodSquare App</string>
+    <string name="action_sign_in_short">Register</string>
+    <string name="btn_link_to_login"> I have already registered!</string>
+    <string name="txt_stallname">Enter Stall Name</string>
+    <string name="txt_accType">Account Type</string>
+    <string name="btn_logout">Logout</string>
+    <string name="btn_viewOrderForm">VIEW ORDERS</string>
+    <string name="btn_addNewMenu">ADD NEW MEAL TO MENU</string>
+    <string name="search_text">Search...</string>
+    <string name="btn_editMenu">Edit Menu</string>>
+    //for typeOfAccount_spinner
+    <string name="typeOfAccount_prompt">Please choose one</string>
+    <string name="notAvailable">Set to Not Available</string>
+    <string name="MustTry">Must Try</string>
+    <string name="btn_deleteMenu">Delete A Meal From Menu</string>
+
+    <string name="txt_typeofacc">Type of Account</string>
+    <string name="txt_verifyacc">Verify Account</string>
+    <string name="btn_sendVerification">Send Verification email</string>
+    <string name="btn_proceedToLFSA">Proceed to LOGIN</string>
+    <string name="txt_diplayemail">EMAIL: </string>
+    <string name="txt_displaystatus">VERIFIED: </string>
+    <string name="txt_resetpass">Reset Password </string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="forgot_password_msg">Please type your registered Email Address to send you instructions on how to reset your password</string>
+
+
+    <string name="email">email</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+    <string name="title_activity_profile">Firebase</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_loginAsCrew">LOGIN AS CREW</string>
+    <string name="btn_loginAsCustomer">LOGIN AS CUSTOMER</string>
+    <string name="prompt_password">Please enter your password</string>
+    <string name="btn_link_to_register">Sign up here!</string>
+    <string name="btn_link_to_apply_for_account">Apply for a Food Stall Crew Account</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="email_id">Email ID</string>
+    <string name="title_activity_main__nav_drawer">MainActivity_NavDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Log Out</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="for_crew">For Food Stall Crews</string>
+
+    <string-array name="category">
+        <item>Rice Meals</item>
+        <item>Snacks</item>
+        <item>Drinks</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="para_about_us">
+    We have made the app to assist the users in finding the meal that they are in the mood for without the stress of walking around in the bustling square. Our team ensured that we have the right data to give the users the means to find food under their budget. The team ensured that the application will be able to assist anybody, may it be a student, faculty or a visitor of our beloved university with finding the right meal for themselves. To make even a visitor have less stress in deciding what they should eat or where the food of their choice are.
+    </string>
+    <string name="txt_aboutus"> ABOUT US</string>
+    <string name="quote_aboutus">"Finding the right meal for you"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="subjects">
+        <item>Report A User</item>
+        <item>Report An Error/Bug</item>
+        <item>Comments/Suggestions</item>
+        <item>Others</item>
+    </string-array>
+    <string name="review_word">Reviews</string>
+    <string name="trans_hist_word">Transaction History</string>
+
+    <string name="login_terms_and_condition">By using this application, you confirm \n that you have read, understood and accept our </string>
+    <string name="login_terms_and_condition_word"><u>Terms and Conditions. </u></string>
+
+    <string name="foodCook">Food is being \n cooked</string>
+
+    <string name="sign_up_crew_instructions">Fill up the form below with correct information.</string>
+    <string name="sign_up_crew_reminders">Applying for an account will redirect you to your mobile device\'s installed email app.
+        Please ATTACH YOUR FOOD STALL PERMIT as proof that your stall is legitimately approved to be in DLSU-D Food Square.
+        You will receive a reply regarding your application for an LFSA Food Stall Crew account after <b>3 - 5 working days</b>.
+        Any application with invalid information or incomplete requirement/s will be disregarded.
+    </string>
+    <string name="sign_up_owner">Food Stall Owner</string>
+    <string name="sign_up_desc">Provide a short description of your Food Stall (i.e. Cuisines offered, Schedule, etc.)</string>
+    <string name="apply">Send application via an e-mail app</string>
+    <string name="select_cb">Select the food/s your food stall has to offer:</string>
+
+    <string name="checkbox1">Snacks</string>
+    <string name="checkbox2">Rice Meals</string>
+    <string name="checkbox3">Drinks</string>
+
+    <string name="txt_termsAndCondition_word">LASALLIAN FOOD SQUARE APP \n TERMS AND CONDITIONS</string>
+    <string name="Paragraph">
+
+        By using this app, the users agree to all of the following: \n
+        <b>AGREEMENT TO TERMS \n</b>
+        These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and LFSA (“service”, “we,” “us” or “our”), concerning your access to and use of the service as well as any other media form or otherwise connected thereto (collectively, the “App”). You agree that by accessing the App, you have read, understood, and agree to be bound by all of these Terms and Conditions Use.  IF YOU DO NOT AGREE WITH ALL OF THESE TERMS and CONDITIONS, THEN YOU ARE EXPRESSLY PROHIBITED FROM USING THE APP AND YOU MUST DISCONTINUE USE IMMEDIATELY.
+        \n
+        <b>\nINTELLECTUAL PROPERTY RIGHTS \n</b>
+        Unless otherwise indicated, the App is our proprietary property and all source code, databases, functionality, software, text, photographs, and graphics on the App (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us and are protected by copyright and trademark laws and various other intellectual property rights and unfair competition laws of the United States, foreign jurisdictions, and international conventions.  The Content and the Marks are provided on the App “AS IS” for your information and personal use only.  Except as expressly provided in these Terms of Use, no part of the App and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose whatsoever, without our express prior written permission.\n
+        \n
+        <b>USER REGISTRATION\n</b>
+        You may be required to register with the App. You agree to keep your password confidential and will be responsible for all use of your account and password. We reserve the right to remove, reclaim, or change a username you select if we determine, in our sole discretion, that such username is inappropriate, obscene, or otherwise objectionable.\n
+        \n
+            If you provide any information that is untrue, inaccurate, not current, or incomplete, we have the right to suspend or terminate your account and refuse any and all current or future use of the App (or any portion thereof).\n
+        \n
+        <b>PROHIBITED ACTIVITIES\n</b>
+        As a user of the App, you agree not to:\n
+
+1.	systematically retrieve data or other content from the App to create or compile, directly or indirectly, a collection, compilation, database, or directory without written permission from us.\n
+2.	make any unauthorized use of the App, including collecting usernames and/or email addresses of users by electronic or other means for the purpose of sending unsolicited email, or creating user accounts by automated means or under false pretenses.\n
+3.	use the App as a means for any mischievous act that could affect other users.\n
+4.	use the App to advertise or offer to sell goods and services.\n
+5.	circumvent, disable, or otherwise interfere with security-related features of the App, including features that prevent or restrict the use or copying of any Content or enforce limitations on the use of the App and/or the Content contained therein.\n
+6.	engage in unauthorized framing of or linking to the App.\n
+7.	trick, defraud, or mislead us and other users, especially in any attempt to learn sensitive account information such as user passwords;\n
+8.	make improper use of our support services or submit false reports of abuse or misconduct.\n
+9.	engage in any automated use of the system, such as using scripts to send comments or messages, or using any data mining, robots, or similar data gathering and extraction tools.\n
+10.	interfere with, disrupt, or create an undue burden on the App or the networks or services connected to the App.\n
+11.	attempt to impersonate another user or person or use the username of another user.\n
+12.	sell or otherwise transfer your profile.\n
+13.	use any information obtained from the App in order to harass, abuse, or harm another person.\n
+14.	use the App as part of any effort to compete with us or otherwise use the App and/or the Content for any revenue-generating endeavor or commercial enterprise.\n
+15.	decipher, decompile, disassemble, or reverse engineer any of the software comprising or in any way making up a part of the App.\n
+16.	attempt to bypass any measures of the App designed to prevent or restrict access to the App, or any portion of the App.\n
+17.	harass, annoy, intimidate, or threaten any of the other users engaged in providing any portion of the App to you.\n
+18.	delete the copyright or other proprietary rights notice from any Content.\n
+19.	copy or adapt the App’s software, including but not limited to Flash, PHP, HTML, JavaScript, or other code.\n
+20.	upload or transmit (or attempt to upload or to transmit) viruses, Trojan horses, or other material, including excessive use of capital letters and spamming (continuous posting of repetitive text), that interferes with any party’s uninterrupted use and enjoyment of the App or modifies, impairs, disrupts, alters, or interferes with the use, features, functions, operation, or maintenance of the App.\n
+21.	upload or transmit (or attempt to upload or to transmit) any material that acts as a passive or active information collection or transmission mechanism, including without limitation, clear graphics interchange formats (“gifs”), 1×1 pixels, web bugs, cookies, or other similar devices (sometimes referred to as “spyware” or “passive collection mechanisms” or “pcms”).\n
+22.	except as may be the result of standard search engine or Internet browser usage, use, launch, develop, or distribute any automated system, including without limitation, any spider, robot, cheat utility, scraper, or offline reader that accesses the App, or using or launching any unauthorized script or other software.\n
+23.	disparage, tarnish, or otherwise harm, in our opinion, us and/or the App.\n
+24.	use the App in a manner inconsistent with any applicable laws or regulations.\n
+25.	[other]\n
+        <b>\nGUIDELINES FOR REVIEWS\n</b>
+        We may provide you areas on the App to leave reviews or ratings. When posting a review, you must comply with the following criteria: (1) you should have firsthand experience with the entity being reviewed; (2) your reviews should not contain offensive profanity, or abusive, racist, offensive, or hate language; (3) your reviews should not contain discriminatory references based on religion, race, gender, national origin, age, marital status, sexual orientation, or disability; (4) your reviews should not contain references to illegal activity; (5) you should not be affiliated with competitors if posting negative reviews; (6) you should not make any conclusions as to the legality of conduct; (7) you may not post any false or misleading statements; and (8) you may not organize a campaign encouraging others to post reviews, whether positive or negative. \n
+        Reviews are not endorsed by us, and do not necessarily represent our opinions.  We do not assume liability for any review or for any claims, liabilities, or losses resulting from any review. By posting a review, you hereby grant to us a perpetual, non-exclusive, worldwide, royalty-free, fully-paid, assignable, and sublicensable right and license to reproduce, modify, translate, transmit by any means, display, perform, and/or distribute all content relating to reviews.
+        \n
+        <b>\nTERM AND TERMINATION\n</b>
+        These Terms of Use shall remain in full force and effect while you use the App. WITHOUT LIMITING ANY OTHER PROVISION OF THESE TERMS OF USE, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE APP (INCLUDING BLOCKING CERTAIN IP ADDRESSES), TO ANY PERSON FOR ANY REASON OR FOR NO REASON, INCLUDING WITHOUT LIMITATION FOR BREACH OF ANY REPRESENTATION, WARRANTY, OR COVENANT CONTAINED IN THESE TERMS OF USE OR OF ANY APPLICABLE LAW OR REGULATION. WE MAY TERMINATE YOUR USE OR PARTICIPATION IN THE APP OR DELETE [YOUR ACCOUNT AND] ANY CONTENT OR INFORMATION THAT YOU POSTED AT ANY TIME, WITHOUT WARNING, IN OUR SOLE DISCRETION.
+        \n
+        <b>\nMODIFICATIONS AND INTERRUPTIONS\n</b>
+        We reserve the right to change, modify, or remove the contents of the App at any time or for any reason at our sole discretion without notice.  However, we have no obligation to update any information on our App.  We also reserve the right to modify or discontinue all or part of the App without notice at any time.  We will not be liable to you or any third party for any modification, price change, suspension, or discontinuance of the App.\n
+        We cannot guarantee the App will be available at all times.  We may experience hardware, software, or other problems or need to perform maintenance related to the App, resulting in interruptions, delays, or errors.  We reserve the right to change, revise, update, suspend, discontinue, or otherwise modify the App at any time or for any reason without notice to you.  You agree that we have no liability whatsoever for any loss, damage, or inconvenience caused by your inability to access or use the App during any downtime or discontinuance of the App.  Nothing in these Terms of Use will be construed to obligate us to maintain and support the App or to supply any corrections, updates, or releases in connection therewith.\n
+        <b>\nCORRECTIONS\n</b>
+        There may be information on the App that contains typographical errors, inaccuracies, or omissions that may relate to the App, including descriptions, pricing, availability, and various other information.  We reserve the right to correct any errors, inaccuracies, or omissions and to change or update the information on the App at any time, without prior notice.\n
+        \n
+        <b>DISCLAIMER\n</b>
+        THE APP IS PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS.  YOU AGREE THAT YOUR USE OF THE APP SERVICES WILL BE AT YOUR SOLE RISK. TO THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, IN CONNECTION WITH THE APP AND YOUR USE THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY OR COMPLETENESS OF THE APP’S CONTENT AND WE WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS, MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM YOUR ACCESS TO AND USE OF THE APP, (3) ANY UNAUTHORIZED ACCESS TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE APP, (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE TRANSMITTED TO OR THROUGH THE APP BY ANY THIRD PARTY, AND/OR (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE APP. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A THIRD PARTY THROUGH THE APP OR OTHER ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES.  AS WITH THE PURCHASE OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT, YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE APPROPRIATE.\n
+        <b>\nLIMITATIONS OF LIABILITY\n</b>
+        IN NO EVENT WILL WE BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL, EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM YOUR USE OF THE APP, EVEN IF WE HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. \n
+        <b>\nUSER DATA\n</b>
+        We will maintain certain data that you transmit to the App for the purpose of managing the App, as well as data relating to your use of the App. You are solely responsible for all data that you transmit or that relates to any activity you have undertaken using the App.  You agree that we shall have no liability to you for any loss or corruption of any such data, and you hereby waive any right of action against us arising from any such loss or corruption of such data. \n
+        <b>\nCONTACT US\n</b>
+        In order to resolve a complaint regarding the App or to receive further information regarding use of the App, please contact us at: <b> pmm.dlsud@gmail.com</b>
+
+    </string>
+
+
+</resources>

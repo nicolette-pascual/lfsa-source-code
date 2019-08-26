@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "839174405217",
+    "firebase_url": "https://lfsa-database.firebaseio.com",
+    "project_id": "lfsa-database",
+    "storage_bucket": "lfsa-database.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839174405217:android:2890c28f35948592",
+        "android_client_info": {
+          "package_name": "com.lfsa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839174405217-r5ljrs6u5vfds5at1oa6v3499m3kcg9p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lfsa",
+            "certificate_hash": "d339e176559c2671cbd12aa3082276f66a69965b"
+          }
+        },
+        {
+          "client_id": "839174405217-5bsn807v9vjs72moipt2hag5qmggisoi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lfsa",
+            "certificate_hash": "ae25a618efcd584cec4a4008d7facc1cb4a83cfb"
+          }
+        },
+        {
+          "client_id": "839174405217-ssf1m1jc3a80fu8vk37nj71nhikasjrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChabr7v3U3-f9TvL-gz2oSvTfS4nMaMpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839174405217-ssf1m1jc3a80fu8vk37nj71nhikasjrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839174405217:android:a0d6499f309342ce",
+        "android_client_info": {
+          "package_name": "com.lfsa_foodstallcrew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839174405217-h2rsq7jm46mnvdmg1p8er97pj08uphn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lfsa_foodstallcrew",
+            "certificate_hash": "d339e176559c2671cbd12aa3082276f66a69965b"
+          }
+        },
+        {
+          "client_id": "839174405217-ssf1m1jc3a80fu8vk37nj71nhikasjrk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChabr7v3U3-f9TvL-gz2oSvTfS4nMaMpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839174405217-ssf1m1jc3a80fu8vk37nj71nhikasjrk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.lfsa">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <!--
+     Set custom default icon. This is used when no icon is set for incoming notification messages.
+     See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notifications_none_black_24dp" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+
+        <activity
+            android:name=".Activities.LoginActivities.SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name=".Activities.LoginActivities.LoginActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".Activities.MainNavBarActivities.ResetPasswordActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".Activities.LoginActivities.VerifyAccount"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".Activities.LoginActivities.SignUpActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".Activities.MainNavBarActivities.SearchActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity android:name=".Activities.MainNavBarActivities.AboutUs"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".Activities.MenuActivities.SingleFoodActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity
+            android:name=".Activities.MenuActivities.MenuNavBarActivities.RatingActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name=".Activities.MenuActivities.MenuNavBarActivities.ReviewActivity" />
+        <activity
+            android:name=".Activities.MenuActivities.MenuActivity"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activities.MenuActivities.MenuNavBarActivities.BulkOrderActivity"
+            android:windowSoftInputMode="stateHidden"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+
+        <service android:name=".Service.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".Service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".Activities.ViewOrderActivity"/>
+        <activity android:name=".Activities.MainNavBarActivities.TransactionHistoryActivity"/>
+        <activity android:name=".Activities.MainNavBarActivities.DeclinedOrdersActivity"/>
+        //FOOD STALL CREW
+        <activity
+            android:name="com.lfsa_foodstallcrew.Activities.LoginActivities.SignUpActivity_Crew"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.lfsa_foodstallcrew.Activities.LoginActivities.ResetPasswordActivity_Crew"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.lfsa_foodstallcrew.Activities.AddMealActivity_Crew" />
+        <activity android:name="com.lfsa_foodstallcrew.Activities.LoginActivities.AboutUs_Crew" />
+        <activity android:name="com.lfsa_foodstallcrew.Activities.MenuActivity_Crew" />
+        <activity android:name="com.lfsa_foodstallcrew.Activities.EditMealActivity_Crew" />
+        <activity android:name="com.lfsa_foodstallcrew.Activities.ViewOrdersActivity_Crew" />
+        <activity android:name="com.lfsa_foodstallcrew.Activities.ReportActivity_Crew" />
+        <activity android:name="com.lfsa_foodstallcrew.Activities.ReviewActivity_Crew" />
+        <activity android:name="com.lfsa_foodstallcrew.Activities.TransactionHistoryActivity_Crew" />
+        <activity android:name="com.lfsa_foodstallcrew.Activities.LoginActivities.LoginActivity_Crew"
+            android:theme="@style/Theme.AppCompat.NoActionBar"/>
+        <activity android:name="com.lfsa_foodstallcrew.MainActivity_Crew" />
+        <activity android:name=".Activities.MainNavBarActivities.ReportActivity"
+           ></activity>
+    </application>
+
+</manifest>

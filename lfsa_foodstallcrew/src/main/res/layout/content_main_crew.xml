@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodstallmenu"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity_Crew"
+    tools:showIn="@layout/app_bar_main_crew"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/addNewMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="150dp"
+        android:background="#cc117c00"
+        android:onClick="addFoodButtonClicked"
+        android:text="@string/btn_addNewMenu"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_editMenu"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#cc159500"
+        android:onClick="editFoodMenuClicked"
+        android:text="@string/btn_editMenu"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_viewOrderForm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#cc18af00"
+        android:onClick="viewOrderMenuClicked"
+        android:text="@string/btn_viewOrderForm"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_sched"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#cc1cc800"
+        android:onClick="openCloseClicked"
+        android:text="CHECK SCHEDULE"
+        android:textColor="@android:color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtClose"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:autoSizeTextType="uniform"
+        android:background="@drawable/background_border"
+        android:text="Tempura Sam is currently Closed"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        android:visibility="gone"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/lfsa_icon_bg"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="THE LASALLIAN FOOD SQUARE APP"
+        android:textAlignment="center"
+        android:textColor="#3b3838"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:typeface="sans"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="230dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/lfsa_icon_no_bg"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="@string/quote_aboutus"
+        android:textAlignment="center"
+        android:textColor="#3b3838"
+        android:textSize="30dp"
+        android:textStyle="italic"
+        android:typeface="sans"
+        tools:typeface="serif" />
+
+
+    <TextView
+        android:id="@+id/TEXT_STATUS_ID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/para_about_us"
+        android:textColor="#3b3838"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background_border"
+        android:paddingBottom="15dp"
+        android:paddingLeft="25dp"
+        android:paddingRight="25dp"
+        android:paddingTop="15dp"/>
+
+
+
+</LinearLayout>

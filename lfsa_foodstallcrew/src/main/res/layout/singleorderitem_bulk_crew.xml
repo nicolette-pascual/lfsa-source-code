@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="#fff">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff">
+
+            <RelativeLayout
+                android:id="@+id/relLayout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:background="#fff">
+
+                <TextView
+                    android:id="@+id/txtPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/txtStatus"
+                    android:layout_below="@+id/textView_totalPrice"
+                    android:layout_marginRight="10dp"
+                    android:text="Php 75.00"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/textView_TimeOrdered"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Time Ordered:"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:id="@+id/txtTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/textView_TimeOrdered"
+                    android:layout_marginStart="109dp"
+                    android:text="time"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/textView_OrderedBy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Order by: "
+                    android:textStyle="bold|italic"
+                    android:layout_below="@+id/textView_TimeOrdered"/>
+
+                <TextView
+                    android:id="@+id/textView_Venue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtCustomerName"
+                    android:layout_marginStart="10dp"
+                    android:text="Venue:"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:id="@+id/txtVenue"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/textView_Venue"
+                    android:layout_marginStart="60dp"
+                    android:text="Place"
+                    android:textColor="@android:color/black" />
+                <TextView
+                    android:id="@+id/textView_DeliveryTime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView_Venue"
+                    android:layout_marginStart="10dp"
+                    android:text="Delivery Date:"
+                    android:textColor="@color/colorPrimary" />
+                <TextView
+                    android:id="@+id/txtDeliveryDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignTop="@+id/textView_DeliveryTime"
+                    android:layout_toEndOf="@+id/textView_DeliveryTime"
+                    android:layout_marginStart="110dp"
+                    android:text="date"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/txtStatus"
+                    android:layout_width="194dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/textView_DeliveryTime"
+                    android:layout_below="@+id/textView_DeliveryTime"
+                    android:layout_marginTop="10dp"
+                    android:text="Your order is being cooked"
+                    android:textColor="@color/btn_login"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView_totalPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/textView_DeliveryTime"
+                    android:layout_marginRight="10dp"
+                    android:text="TOTAL PRICE:"
+                    android:textColor="@color/colorPrimary"
+                    android:textStyle="bold|italic" />
+
+                <TextView
+                    android:id="@+id/txtCustomerName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignEnd="@+id/txtTime"
+                    android:layout_marginEnd="-81dp"
+                    android:layout_alignTop="@+id/textView_OrderedBy"
+                    android:layout_toEndOf="@+id/textView_OrderedBy"
+                    android:text="Customer Name" />
+
+                <!--<TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txtCustomerName"
+                    android:layout_toEndOf="@+id/textView_OrderedBy"
+                    android:text="email@gmail.com" />-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/txtPrice"
+                    android:layout_marginTop="15dp">
+
+                    <Button
+                        android:id="@+id/btnViewOrders"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/txtPrice"
+                        android:layout_marginStart="3dp"
+                        android:text="View Order" />
+                    <Button
+                        android:id="@+id/btnFinished"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/txtPrice"
+                        android:layout_marginStart="5dp"
+                        android:text="Finish"
+                        android:visibility="gone"/>
+                    <Button
+                        android:id="@+id/btnAccept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/txtPrice"
+                        android:text="Accept"
+                        android:layout_marginStart="1dp"/>
+
+                    <Button
+                        android:id="@+id/btnDecline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@+id/txtPrice"
+                        android:layout_marginEnd="10dp"
+                        android:text="Decline" />
+
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+    </RelativeLayout>
+</LinearLayout>
+    <!-- Card view of orders by the customer; design of the single orders -->

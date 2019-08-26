@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lfsa_icon_bg"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context=".Activities.AddMealActivity_Crew">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ImageButton
+            android:id="@+id/imgFoodStall"
+            android:layout_width="313dp"
+            android:layout_height="187dp"
+            android:layout_gravity="center"
+            android:background="@drawable/imageview_border"
+            android:onClick="imageButtonClicked"
+            android:padding="10dp"
+            android:scaleType="fitXY" />
+
+
+
+        <EditText
+            android:id="@+id/itemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_input"
+            android:drawableLeft="@drawable/ic_stallname"
+            android:hint="Enter food item name"
+            android:textColorHint="#a9a9a9"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/itemDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_input"
+            android:drawableLeft="@drawable/ic_food_desc"
+            android:hint="Enter item description"
+            android:textColorHint="#a9a9a9"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="italic" />
+
+        <Spinner
+            android:id="@+id/itemCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black" />
+
+        <EditText
+            android:id="@+id/itemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_input"
+            android:drawableLeft="@drawable/peso_sign"
+            android:hint="Enter item price"
+            android:textColorHint="#a9a9a9"
+            android:inputType="number"
+            android:paddingBottom="10dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="25dp"
+            android:paddingTop="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="italic" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/background_button_no_border"
+            android:onClick="addItemButtonClicked"
+            android:text="Add Item to Menu"
+            android:textColor="@android:color/white" />
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="71dp"
+        android:layout_height="68dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible" />
+</RelativeLayout>

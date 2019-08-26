@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_resetpass"
+            android:icon="@drawable/ic_menu_resetpass"
+            android:title="Reset Password" />
+        <item
+            android:id="@+id/nav_hist"
+            android:icon="@drawable/ic_menu_hist"
+            android:title="Transaction History" />
+
+        <item
+            android:id="@+id/nav_review"
+            android:icon="@drawable/ic_menu_review"
+            android:title="See Reviews" />
+
+        <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_menu_report"
+            android:title="Report A Problem" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_menu_aboutus"
+                android:title="About Us" />
+        </menu>
+    </item>
+
+</menu>
